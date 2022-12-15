@@ -1,0 +1,16 @@
+    {
+        "id": 12,
+        "label": "Connections",
+        "items": [
+            {
+                "id": 121,
+                "label": "Connections List",
+                "path": "/Connections/ConnectionsList",
+            },
+            {
+                "id": 122,
+                "label": "Create Connection",
+                "path": "/Connections/CreateConnection",
+            },
+        ],
+    }
