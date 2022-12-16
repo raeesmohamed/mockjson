@@ -1,0 +1,61 @@
+{
+        "dbType": "Oracle",
+        "logicalName": "FIRCO_ORCL",
+        "description": "Firco Qatar",
+    },
+    {
+        "dbType": "Oracle",
+        "logicalName": "FLEX_UAT_ORCLKW1030",
+        "description": "Flex Kuwait",
+    },
+    {
+        "dbType": "Oracle",
+        "logicalName": "SWIFT_SIDEDB_SS",
+        "description": "",
+    },
+    {
+        "dbType": "Hype",
+        "logicalName": "SNAP_VIPERA_CC",
+        "description": "",
+    },
+    {
+        "dbType": "Oracle",
+        "logicalName": "FLEX_UAT_ORCLEG",
+        "description": "Flex Egypt",
+    },
+    {
+        "dbType": "Hype",
+        "logicalName": "SNAP_VIPERA_SS",
+        "description": "",
+    },
+    {
+        "dbType": "Oracle",
+        "logicalName": "FLEX_UAT_ORCLBH",
+        "description": "Flex Baharain",
+    },
+    {
+        "dbType": "Oracle",
+        "logicalName": "MOL_UAT_ORCL",
+        "description": "Baharain",
+    },
+    {
+        "dbType": "Oracle",
+        "logicalName": "TradeDB",
+        "description": "",
+    },
+    {
+        "dbType": "Oracle",
+        "logicalName": "MOL_ORCL",
+        "description": "",
+    },
+
+    {
+        "dbType": "Oracle",
+        "logicalName": "FLEX_UAT_ORCLBH",
+        "description": "Flex Baharain",
+    },
+    {
+        "dbType": "Oracle",
+        "logicalName": "MOL_UAT_ORCL",
+        "description": "Baharain",
+    }
