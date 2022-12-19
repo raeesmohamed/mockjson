@@ -1,238 +1,9 @@
-{
-    "databases": [
-        {
-          "dbType": "Oracle",
-          "dbLable": "Oracle Server",
-          "connectionComponents": [
-              {
-                  "field": "host",
-                  "label": "Host",
-                  "required": true
-              },
-              {
-                  "field": "port",
-                  "label": "Port",
-                  "required": true
-              },
-              {
-                  "field": "databaseName",
-                  "label": "Database Name"
-              },
-              {
-                  "field": "owner",
-                  "label": "Owner"
-              },
-              {
-                  "field": "username",
-                  "label": "Username",
-                  "required": true
-              },
-              {
-                  "field": "password",
-                  "label": "Password",
-                  "isPassword": true,
-                  "required": true
-              }
-          ]
-        },
-        {
-            "dbType": "Derby",
-            "dbLable": "Derby Server",
-            "connectionComponents": [
-                {
-                    "field": "host",
-                    "label": "Host",
-                    "required": true
-                },
-                {
-                    "field": "port",
-                    "label": "Port",
-                    "required": true
-                },
-                {
-                    "field": "databaseName",
-                    "label": "Database Name"
-                },
-    
-                {
-                    "field": "username",
-                    "label": "Username",
-                    "isPassword":false,
-                    "required": true
-                },
-    
-                {
-                    "field": "password",
-                    "label": "Password",
-                    "isPassword": true,
-                    "required": true
-                }
-            ]
-        },
-    
-        {
-            "dbType": "Hive",
-            "dbLable": "Hive Server",
-            "connectionComponents": [
-                {
-                    "field": "host",
-                    "label": "Host",
-                    "required": true
-                },
-                {
-                    "field": "port",
-                    "label": "Port",
-                    "required": true
-                },
-    
-                {
-                    "field": "databaseName",
-                    "label": "Database Name"
-                },
-    
-                {
-                    "field": "username",
-                    "label": "Username",
-                    "required": true
-                },
-    
-                {
-                    "field": "password",
-                    "label": "Password",
-                    "isPassword": true,
-                    "required": true
-                }
-            ]
-        },
-        {
-            "dbType": "Microsoft Access",
-            "dbLable": "Microsoft Access Server",
-            "connectionComponents": [
-                {
-                    "field": "host",
-                    "label": "Host",
-                    "required": true
-                },
-                {
-                    "field": "mdbFilePath",
-                    "label": "Mdb File Path",
-                    "required": true
-                },
-                {
-                    "field": "username",
-                    "label": "Username",
-                    "required": true
-                },
-                {
-                    "field": "password",
-                    "label": "Password",
-                    "isPassword": true,
-                    "required": true
-                }
-            ]
-        },
-        {
-            "dbType": "MySQL",
-            "dbLable": "MySQL Server",
-            "connectionComponents": [
-                {
-                    "field": "host",
-                    "label": "Host",
-                    "required": true
-                },
-                {
-                    "field": "port",
-                    "label": "Port",
-                    "required": true
-                },
-                {
-                    "field": "databaseName",
-                    "label": "Database Name"
-                },
-    
-                {
-                    "field": "username",
-                    "label": "Username",
-                    "required": true
-                },
-                {
-                    "field": "password",
-                    "label": "Password",
-                    "isPassword": true,
-                    "required": true
-                }
-            ]
-        },
-    
-        {
-            "dbType": "PostgreSQL",
-            "dbLable": "PostgreSQL Server",
-            "connectionComponents": [
-                {
-                    "field": "host",
-                    "label": "Host",
-                    "required": true
-                },
-                {
-                    "field": "port",
-                    "label": "Port",
-                    "required": true
-                },
-                {
-                    "field": "databaseName",
-                    "label": "Database Name"
-                },
-                {
-                    "field": "schema",
-                    "label": "Schema"
-                },
-                {
-                    "field": "username",
-                    "label": "Username",
-                    "required": true
-                },
-                {
-                    "field": "password",
-                    "label": "Password",
-                    "isPassword": true,
-                    "required": true
-                }
-            ]
-        },
-        {
-            "dbType": "SAS Sharenet",
-            "dbLable": "SAS Sharenet Server",
-            "connectionComponents": [
-                {
-                    "field": "host",
-                    "label": "Host",
-                    "required": true
-                },
-                {
-                    "field": "port",
-                    "label": "Port",
-                    "required": true
-                },
-                {
-                    "field": "databaseName",
-                    "label": "Database Name"
-                },
-                {
-                    "field": "username",
-                    "label": "Username",
-                    "required": true
-                },
-                {
-                    "field": "password",
-                    "label": "Password",
-                    "isPassword": true,
-                    "required": true
-                }
-            ]
-        },
-        {
-            "dbType": "Sybase IQ",
-            "dbLable": "Sybase IQ Server",
+[
+    {
+        "databases": [
+            {
+            "dbType": "Oracle",
+            "dbLable": "Oracle Server",
             "connectionComponents": [
                 {
                     "field": "host",
@@ -264,51 +35,282 @@
                     "required": true
                 }
             ]
-        }
-    ],
-    "databaseRefer":[
-        {
-            "dbType": "Oracle"
-        },
-        {
-            "dbType": "Derby"
-        },
-        {
-            "dbType": "Hive"
-        },
-        {
-            "dbType": "Microsoft Access"
-        },
-        {
-            "dbType": "MySQL"
-        },
-        {
-            "dbType": "PostgreSQL"
-        },
-        {
-            "dbType": "SAS Sharenet"
-        },
-        {
-            "dbType": "Sybase IQ"
-        }
-    ],
-    "createConnectionType":[
-        {
-            "connectionType": "Properties"
-          },
-          {
-            "connectionType":"Data"
-          }
-    ],
-    "leftSideFormData":[
-        {
-            "field":"name",
-            "label":"Name",
-            "required":true
-        },
-        {
-            "field":"description",
-            "label":"Description"
-        }
-    ]
-  }
+            },
+            {
+                "dbType": "Derby",
+                "dbLable": "Derby Server",
+                "connectionComponents": [
+                    {
+                        "field": "host",
+                        "label": "Host",
+                        "required": true
+                    },
+                    {
+                        "field": "port",
+                        "label": "Port",
+                        "required": true
+                    },
+                    {
+                        "field": "databaseName",
+                        "label": "Database Name"
+                    },
+        
+                    {
+                        "field": "username",
+                        "label": "Username",
+                        "isPassword":false,
+                        "required": true
+                    },
+        
+                    {
+                        "field": "password",
+                        "label": "Password",
+                        "isPassword": true,
+                        "required": true
+                    }
+                ]
+            },
+        
+            {
+                "dbType": "Hive",
+                "dbLable": "Hive Server",
+                "connectionComponents": [
+                    {
+                        "field": "host",
+                        "label": "Host",
+                        "required": true
+                    },
+                    {
+                        "field": "port",
+                        "label": "Port",
+                        "required": true
+                    },
+        
+                    {
+                        "field": "databaseName",
+                        "label": "Database Name"
+                    },
+        
+                    {
+                        "field": "username",
+                        "label": "Username",
+                        "required": true
+                    },
+        
+                    {
+                        "field": "password",
+                        "label": "Password",
+                        "isPassword": true,
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "dbType": "Microsoft Access",
+                "dbLable": "Microsoft Access Server",
+                "connectionComponents": [
+                    {
+                        "field": "host",
+                        "label": "Host",
+                        "required": true
+                    },
+                    {
+                        "field": "mdbFilePath",
+                        "label": "Mdb File Path",
+                        "required": true
+                    },
+                    {
+                        "field": "username",
+                        "label": "Username",
+                        "required": true
+                    },
+                    {
+                        "field": "password",
+                        "label": "Password",
+                        "isPassword": true,
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "dbType": "MySQL",
+                "dbLable": "MySQL Server",
+                "connectionComponents": [
+                    {
+                        "field": "host",
+                        "label": "Host",
+                        "required": true
+                    },
+                    {
+                        "field": "port",
+                        "label": "Port",
+                        "required": true
+                    },
+                    {
+                        "field": "databaseName",
+                        "label": "Database Name"
+                    },
+        
+                    {
+                        "field": "username",
+                        "label": "Username",
+                        "required": true
+                    },
+                    {
+                        "field": "password",
+                        "label": "Password",
+                        "isPassword": true,
+                        "required": true
+                    }
+                ]
+            },
+        
+            {
+                "dbType": "PostgreSQL",
+                "dbLable": "PostgreSQL Server",
+                "connectionComponents": [
+                    {
+                        "field": "host",
+                        "label": "Host",
+                        "required": true
+                    },
+                    {
+                        "field": "port",
+                        "label": "Port",
+                        "required": true
+                    },
+                    {
+                        "field": "databaseName",
+                        "label": "Database Name"
+                    },
+                    {
+                        "field": "schema",
+                        "label": "Schema"
+                    },
+                    {
+                        "field": "username",
+                        "label": "Username",
+                        "required": true
+                    },
+                    {
+                        "field": "password",
+                        "label": "Password",
+                        "isPassword": true,
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "dbType": "SAS Sharenet",
+                "dbLable": "SAS Sharenet Server",
+                "connectionComponents": [
+                    {
+                        "field": "host",
+                        "label": "Host",
+                        "required": true
+                    },
+                    {
+                        "field": "port",
+                        "label": "Port",
+                        "required": true
+                    },
+                    {
+                        "field": "databaseName",
+                        "label": "Database Name"
+                    },
+                    {
+                        "field": "username",
+                        "label": "Username",
+                        "required": true
+                    },
+                    {
+                        "field": "password",
+                        "label": "Password",
+                        "isPassword": true,
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "dbType": "Sybase IQ",
+                "dbLable": "Sybase IQ Server",
+                "connectionComponents": [
+                    {
+                        "field": "host",
+                        "label": "Host",
+                        "required": true
+                    },
+                    {
+                        "field": "port",
+                        "label": "Port",
+                        "required": true
+                    },
+                    {
+                        "field": "databaseName",
+                        "label": "Database Name"
+                    },
+                    {
+                        "field": "owner",
+                        "label": "Owner"
+                    },
+                    {
+                        "field": "username",
+                        "label": "Username",
+                        "required": true
+                    },
+                    {
+                        "field": "password",
+                        "label": "Password",
+                        "isPassword": true,
+                        "required": true
+                    }
+                ]
+            }
+        ],
+        "databaseRefer":[
+            {
+                "dbType": "Oracle"
+            },
+            {
+                "dbType": "Derby"
+            },
+            {
+                "dbType": "Hive"
+            },
+            {
+                "dbType": "Microsoft Access"
+            },
+            {
+                "dbType": "MySQL"
+            },
+            {
+                "dbType": "PostgreSQL"
+            },
+            {
+                "dbType": "SAS Sharenet"
+            },
+            {
+                "dbType": "Sybase IQ"
+            }
+        ],
+        "createConnectionType":[
+            {
+                "connectionType": "Properties"
+            },
+            {
+                "connectionType":"Data"
+            }
+        ],
+        "leftSideFormData":[
+            {
+                "field":"name",
+                "label":"Name",
+                "required":true
+            },
+            {
+                "field":"description",
+                "label":"Description"
+            }
+        ]
+    }
+]
