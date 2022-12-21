@@ -265,9 +265,7 @@
                 }
             ]
         }
-    ]
-},
-{
+    ],
     "databaseRefer":[
         {
             "dbType": "Oracle"
@@ -293,9 +291,7 @@
         {
             "dbType": "Sybase IQ"
         }
-    ]
-},
-{
+    ],
     "createConnectionType":[
         {
             "connectionType": "Properties"
@@ -303,9 +299,7 @@
         {
             "connectionType":"Data"
         }
-    ]
-},
-{
+    ],
     "leftSideFormData":[
         {
             "field":"name",
@@ -318,4 +312,5 @@
         }
     ]
 }
+
 
