@@ -1,4 +1,6 @@
 {
+  "id": "user1",
+  "name": "John",
   "notifications": [
     {
       "id": "1",
