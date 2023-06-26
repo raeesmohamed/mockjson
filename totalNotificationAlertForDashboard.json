@@ -47,12 +47,10 @@
         }
       ]
     },
-    // Repeat the structure for user2 to user10 with different IDs and names
     {
       "id": "user2",
       "name": "Jane",
       "notifications": [
-        // User 2 notifications
       {
           "id": "1",
           "type": "task_reminder",
@@ -96,7 +94,6 @@
         }
       ]
     },
-    // Repeat for user3 to user10
     {
       "id": "user3",
       "name": "Alice",
@@ -149,7 +146,6 @@
       "id": "user4",
       "name": "Bob",
       "notifications": [
-        // User 4 notifications
         {
           "id": "1",
           "type": "task_reminder",
@@ -197,7 +193,6 @@
       "id": "user5",
       "name": "Emma",
       "notifications": [
-        // User 5 notifications
         {
           "id": "1",
           "type": "task_reminder",
@@ -245,7 +240,6 @@
       "id": "user6",
       "name": "David",
       "notifications": [
-        // User 6 notifications
         {
           "id": "1",
           "type": "task_reminder",
@@ -293,7 +287,6 @@
       "id": "user7",
       "name": "Sophia",
       "notifications": [
-        // User 7 notifications
         {
           "id": "1",
           "type": "task_reminder",
@@ -341,7 +334,6 @@
       "id": "user8",
       "name": "Jacob",
       "notifications": [
-        // User 8 notifications
         {
           "id": "1",
           "type": "task_reminder",
@@ -389,7 +381,6 @@
       "id": "user9",
       "name": "Olivia",
       "notifications": [
-        // User 9 notifications
         {
           "id": "1",
           "type": "task_reminder",
@@ -437,7 +428,6 @@
       "id": "user10",
       "name": "Liam",
       "notifications": [
-        // User 10 notifications
         {
           "id": "1",
           "type": "task_reminder",
