@@ -1,1 +1,485 @@
-
+{
+  "users": [
+    {
+      "id": "user1",
+      "name": "John",
+      "notifications": [
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    // Repeat the structure for user2 to user10 with different IDs and names
+    {
+      "id": "user2",
+      "name": "Jane",
+      "notifications": [
+        // User 2 notifications
+      {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    // Repeat for user3 to user10
+    {
+      "id": "user3",
+      "name": "Alice",
+      "notifications": [
+        // User 3 notifications
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    {
+      "id": "user4",
+      "name": "Bob",
+      "notifications": [
+        // User 4 notifications
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    {
+      "id": "user5",
+      "name": "Emma",
+      "notifications": [
+        // User 5 notifications
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    {
+      "id": "user6",
+      "name": "David",
+      "notifications": [
+        // User 6 notifications
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    {
+      "id": "user7",
+      "name": "Sophia",
+      "notifications": [
+        // User 7 notifications
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    {
+      "id": "user8",
+      "name": "Jacob",
+      "notifications": [
+        // User 8 notifications
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    {
+      "id": "user9",
+      "name": "Olivia",
+      "notifications": [
+        // User 9 notifications
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    },
+    {
+      "id": "user10",
+      "name": "Liam",
+      "notifications": [
+        // User 10 notifications
+        {
+          "id": "1",
+          "type": "task_reminder",
+          "title": "Task Reminder",
+          "message": "The task 'Update website content' is due in 2 hours.",
+          "timestamp": "2023-06-26T10:00:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "task_due_date": "2023-06-26T12:00:00Z"
+        },
+        {
+          "id": "2",
+          "type": "task_assignment",
+          "title": "Task Assignment",
+          "message": "You have been assigned a new task: 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-25T15:30:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation"
+        },
+        {
+          "id": "3",
+          "type": "task_update",
+          "title": "Task Update",
+          "message": "There is a new comment on the task 'Update website content'.",
+          "timestamp": "2023-06-24T09:15:00Z",
+          "task_id": "12345",
+          "task_name": "Update website content",
+          "comment_id": "abc123",
+          "comment_text": "Just completed the first draft. Please review."
+        },
+        {
+          "id": "4",
+          "type": "activity_feed",
+          "title": "Activity Update",
+          "message": "Jane completed the task 'Prepare marketing presentation'.",
+          "timestamp": "2023-06-23T14:45:00Z",
+          "task_id": "67890",
+          "task_name": "Prepare marketing presentation",
+          "user_id": "user2",
+          "user_name": "Jane"
+        }
+      ]
+    }
+  ]
+}
